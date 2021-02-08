@@ -2,20 +2,6 @@ body {
     background-color: darkmagenta;
 }
 
-#socialtop {
-    background-color: darkmagenta;
-    height: 2.5em;
-    text-align: right;
-}
-
-#top {
-    background-color: purple;
-    height: 4.5em;
-    color: whitesmoke;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
 
 #main {
     background-color: white;
@@ -23,33 +9,133 @@ body {
 
 }
 
-#bottom {
-    background-color: purple;
-    height: 2em;
-    color: white;
-    font-size: xx-small;
+  #question {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  #page {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: pink;
+  }
+
+  #welcome {
+      text-align: center;
+      color: darkorange;
+      margin-bottom: 20px;
+  }
+
+  #citypic {
+      text-align: center;
+  }
+
+  #start {
+      text-align: center;
+      margin: 50px 20px;
+  }
+
+  h6 {
+      margin: 30px 30px;
+      color: seagreen;
+  }
+
+  ul{
+    list-style: none;
     text-align: center;
 }
 
-.social {
-    list-style: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
+li{
+    font-family: 'Rokkitt', serif;
+    font-size: 1em;
+    color: #feb135;
+    
+    
 }
 
-.sociallinks {
-    display: inline-block;
-    margin-right: 15px;
-    font-size: 17px;
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 2em;
 }
 
-a {
-    color: whitesmoke;
-    text-decoration: none;
+/* Quiz Classes */
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
 }
 
+.quizContainer {
+    background-color: darkslateblue;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+    margin-top: 190px;
+    padding-top: 5px;
+    position: relative;
+}
 
-p {
-    margin: 100x;
-    font-size: x-small;
+.nextButton{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: peru;
+
+    /*clear: both;*/
+    color:#fff;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.question{
+    font-family: 'Rokkitt', serif;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: lightgrey;
+    text-align: center;
+    color: darkorchid;
+}
+
+.quizMessage{
+    background-color: darkkhaki;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Rokkitt', serif;
+    color: red;
+}
+
+.choiceList {
+    font-family: Arial, Helvetica, sans-serif;       
+    color: blueviolet;
+}
+
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
+
+#cityQuestion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
