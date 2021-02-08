@@ -17,7 +17,6 @@ body {
   #page {
       text-align: center;
       margin-top: 20px;
-      margin-bottom: 20px;
       color: pink;
   }
 
@@ -62,7 +61,7 @@ input[type=radio]{
 
 /* Quiz Classes */
 h1 {
-    color: darkgoldenrod;
+    color: yellow;
     text-align: center;
 }
 
@@ -71,7 +70,7 @@ h1 {
     border-radius: 8px;
     width: 75%;
     margin: auto;
-    margin-top: 190px;
+    margin-top: 100px;
     padding-top: 5px;
     position: relative;
 }
@@ -81,10 +80,8 @@ h1 {
     width: 150px;
     height: 40px;
     text-align: center;
-    background-color: peru;
-
-    /*clear: both;*/
-    color:#fff;
+    background-color: yellow;
+    color: darkmagenta;
     font-family: 'Rokkitt', serif;
     font-weight: bold;
     position: relative;
@@ -112,7 +109,7 @@ h1 {
     text-align: center;
     padding: 2px;
     font-family: 'Rokkitt', serif;
-    color: red;
+    color: darkred;
 }
 
 .choiceList {
@@ -131,7 +128,7 @@ h1 {
     font-family: 'Rokkitt', serif;
 }
 
-#cityQuestion {
+#images {
     display: block;
     margin-left: auto;
     margin-right: auto;
