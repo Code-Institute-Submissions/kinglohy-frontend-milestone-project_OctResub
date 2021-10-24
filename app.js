@@ -91,11 +91,11 @@ var choiceList = document.querySelector('.quizContainer > .choiceList');
 var imageElement = document.getElementById('image');
 var numChoices = questions[currentQuestion].choices.length;
 
-//Set the questionClass text to the current question
+
 questionClass.innerText = question;
 imageElement.src = imageUrl;
 
-//Remove all current <li> elements (if any)
+
 choiceList.innerHTML = '';
 
 var choice;
