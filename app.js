@@ -1,32 +1,32 @@
 var questions = [{
   question: "What city is this?",
   choices: ["Rome", "Madrid", "Amsterdam", "Budapest"],
-  image_url: "assets/images/city/city1.jpg",
+  image_url: "../assets/images/city/city1.jpg",
   correctAnswer: 3
 },
 
 {
   question: "What city are we looking at?",
   choices: ["Milaan", "Madrid", "Rome", "Monaco"],
-  image_url: "assets/images/city/city2.jpg",
+  image_url: "../assets/images/city/city2.jpg",
   correctAnswer: 2
 },
 {
   question: "Yes, tell me which city we are looking at:",
   choices: ["Toronto", "New York", "Chicago", "Montreal"],
-  image_url: "assets/images/city/city3.jpg",
+  image_url: "../assets/images/city/city3.jpg",
   correctAnswer: 0
 },
 {
   question: "What beautiful city is this?",
   choices: ["Singapore", "Kuala Lumpur", "Melbourne", "Jakarta"],
-  image_url: "assets/images/city/city4.jpg",
+  image_url: "../assets/images/city/city4.jpg",
   correctAnswer: 1
 },
 {
   question: "What city is this?",
   choices: ["Barcalona", "Nancy", "Paris", "Nantes"],
-  image_url: "assets/images/city/city5.jpg",
+  image_url: "../assets/images/city/city5.jpg",
   correctAnswer: 2
 }
 ];
